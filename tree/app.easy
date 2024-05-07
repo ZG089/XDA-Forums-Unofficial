@@ -1,0 +1,145 @@
+{
+    "_id_": 2,
+    "_type": "App",
+    "features": {
+        "_id_": 4,
+        "_type": "App.Features",
+        "list_": [
+            {
+                "_id_": 28,
+                "_type": "Activity",
+                "features": {
+                    "_id_": 30,
+                    "_type": "Activity.Features",
+                    "list_": []
+                },
+                "theme": {
+                    "_id_": 32,
+                    "_type": "Theme.DayNight"
+                },
+                "contentView": {
+                    "_id_": 34,
+                    "_type": "RelativeLayout",
+                    "id": {
+                        "_id_": 38,
+                        "_type": "String",
+                        "value_": ""
+                    },
+                    "views": {
+                        "_id_": 36,
+                        "_type": "ViewList",
+                        "list_": [
+                            {
+                                "_id_": 40,
+                                "_type": "TextView",
+                                "id": {
+                                    "_id_": 43,
+                                    "_type": "String",
+                                    "value_": ""
+                                },
+                                "android:text": {
+                                    "_id_": 45,
+                                    "_type": "String",
+                                    "value_": "Hello"
+                                },
+                                "android:textSize": {
+                                    "_id_": 47,
+                                    "_type": "Dimension",
+                                    "unit": {
+                                        "_id_": 49,
+                                        "_type": "DimensionUnit",
+                                        "value_": "dp"
+                                    },
+                                    "value": {
+                                        "_id_": 48,
+                                        "_type": "Float",
+                                        "value_": 50
+                                    }
+                                },
+                                "android:layout_centerInParent": {
+                                    "_id_": 44,
+                                    "_type": "Boolean",
+                                    "value_": true
+                                },
+                                "android:textColor": {
+                                    "_id_": 46,
+                                    "_type": "Color",
+                                    "color_": -65536
+                                }
+                            }
+                        ]
+                    }
+                },
+                "name": {
+                    "_id_": 52,
+                    "_type": "String",
+                    "value_": "Main"
+                },
+                "launcher": {
+                    "_id_": 54,
+                    "_type": "Activity.Launcher"
+                }
+            }
+        ]
+    },
+    "settings": {
+        "_id_": 6,
+        "_type": "App.Settings",
+        "debugBuild": {
+            "_id_": 8,
+            "_type": "App.Settings.DebugBuild"
+        },
+        "releaseBuild": {
+            "_id_": 10,
+            "_type": "App.Settings.ReleaseBuild"
+        }
+    },
+    "packaging": {
+        "_id_": 12,
+        "_type": "App.Packaging",
+        "icon": {
+            "_id_": 56,
+            "_type": "DrawableReference",
+            "ref": {
+                "_id_": 57,
+                "_type": "String",
+                "value_": "@drawable\/app_icon"
+            }
+        },
+        "targetSdk": {
+            "_id_": 17,
+            "_type": "Integer",
+            "value_": 33
+        },
+        "label": {
+            "_id_": 55,
+            "_type": "String",
+            "value_": "XDA Forums"
+        },
+        "versionName": {
+            "_id_": 19,
+            "_type": "String",
+            "value_": "1.0"
+        },
+        "versionCode": {
+            "_id_": 20,
+            "_type": "Integer",
+            "value_": 1
+        },
+        "minSdk": {
+            "_id_": 21,
+            "_type": "Integer",
+            "value_": 24
+        },
+        "permissions": {
+            "_id_": 23,
+            "_type": "App.Permissions"
+        },
+        "packageName": {
+            "_id_": 58,
+            "_type": "String",
+            "value_": "com.aaappps.xdaforums"
+        }
+    },
+    "_abVer": 226
+}
