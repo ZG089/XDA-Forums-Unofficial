@@ -8,66 +8,85 @@
             {
                 "_id_": 28,
                 "_type": "Activity",
+                "splashScreen": {
+                    "_id_": 113,
+                    "_type": "Activity.SplashScreen"
+                },
                 "features": {
                     "_id_": 30,
                     "_type": "Activity.Features",
                     "list_": []
                 },
+                "screenOrientation": {
+                    "_id_": 111,
+                    "_type": "Activity.ScreenOrientation",
+                    "value_": "user"
+                },
                 "theme": {
-                    "_id_": 32,
-                    "_type": "Theme.DayNight"
+                    "_id_": 309,
+                    "_type": "Theme.Material.DayNight"
                 },
                 "contentView": {
-                    "_id_": 34,
-                    "_type": "RelativeLayout",
+                    "_id_": 283,
+                    "_type": "WebView.Decor",
+                    "progressBar": {
+                        "_id_": 291,
+                        "_type": "ProgressBar",
+                        "id": {
+                            "_id_": 293,
+                            "_type": "String",
+                            "value_": ""
+                        }
+                    },
                     "id": {
-                        "_id_": 38,
+                        "_id_": 301,
                         "_type": "String",
                         "value_": ""
                     },
                     "views": {
-                        "_id_": 36,
+                        "_id_": 289,
                         "_type": "ViewList",
-                        "list_": [
-                            {
-                                "_id_": 40,
-                                "_type": "TextView",
-                                "id": {
-                                    "_id_": 43,
-                                    "_type": "String",
-                                    "value_": ""
-                                },
-                                "android:text": {
-                                    "_id_": 45,
-                                    "_type": "String",
-                                    "value_": "Hello"
-                                },
-                                "android:textSize": {
-                                    "_id_": 47,
-                                    "_type": "Dimension",
-                                    "unit": {
-                                        "_id_": 49,
-                                        "_type": "DimensionUnit",
-                                        "value_": "dp"
-                                    },
-                                    "value": {
-                                        "_id_": 48,
-                                        "_type": "Float",
-                                        "value_": 50
-                                    }
-                                },
-                                "android:layout_centerInParent": {
-                                    "_id_": 44,
-                                    "_type": "Boolean",
-                                    "value_": true
-                                },
-                                "android:textColor": {
-                                    "_id_": 46,
-                                    "_type": "Color",
-                                    "color_": -65536
-                                }
+                        "list_": []
+                    },
+                    "refresh": {
+                        "_id_": 295,
+                        "_type": "SwipeRefreshLayout",
+                        "id": {
+                            "_id_": 299,
+                            "_type": "String",
+                            "value_": ""
+                        }
+                    },
+                    "webView": {
+                        "_id_": 285,
+                        "_type": "WebView",
+                        "id": {
+                            "_id_": 287,
+                            "_type": "String",
+                            "value_": ""
+                        },
+                        "url": {
+                            "_id_": 311,
+                            "_type": "URL",
+                            "url": {
+                                "_id_": 312,
+                                "_type": "String",
+                                "value_": "https:\/\/xdaforums.com"
                             }
-                        ]
+                        }
+                    }
+                },
+                "toolbar": {
+                    "_id_": 146,
+                    "_type": "Toolbar",
+                    "id": {
+                        "_id_": 148,
+                        "_type": "String",
+                        "value_": ""
+                    },
+                    "style": {
+                        "_id_": 326,
+                        "_type": "Theme.Material.DayNight"
                     }
                 },
                 "name": {
@@ -133,7 +152,32 @@
         },
         "permissions": {
             "_id_": 23,
-            "_type": "App.Permissions"
+            "_type": "App.Permissions",
+            "WRITE_EXTERNAL_STORAGE": {
+                "_id_": 343,
+                "_type": "Boolean",
+                "value_": true
+            },
+            "ACCESS_NETWORK_STATE": {
+                "_id_": 339,
+                "_type": "Boolean",
+                "value_": true
+            },
+            "INTERNET": {
+                "_id_": 341,
+                "_type": "Boolean",
+                "value_": true
+            },
+            "READ_EXTERNAL_STORAGE": {
+                "_id_": 342,
+                "_type": "Boolean",
+                "value_": true
+            },
+            "ACCESS_WIFI_STATE": {
+                "_id_": 340,
+                "_type": "Boolean",
+                "value_": true
+            }
         },
         "packageName": {
             "_id_": 58,
