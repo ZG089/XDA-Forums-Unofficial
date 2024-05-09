@@ -10,7 +10,16 @@
                 "_type": "Activity",
                 "splashScreen": {
                     "_id_": 113,
-                    "_type": "Activity.SplashScreen"
+                    "_type": "Activity.SplashScreen",
+                    "icon": {
+                        "_id_": 518,
+                        "_type": "DrawableReference",
+                        "ref": {
+                            "_id_": 520,
+                            "_type": "String",
+                            "value_": "@drawable\/icon"
+                        }
+                    }
                 },
                 "features": {
                     "_id_": 30,
@@ -206,7 +215,7 @@
                                 "url": {
                                     "_id_": 451,
                                     "_type": "String",
-                                    "value_": "https:\/\/xdaforums.com"
+                                    "value_": "https:\/\/xdaforums.com\/account\/alerts"
                                 }
                             }
                         }
