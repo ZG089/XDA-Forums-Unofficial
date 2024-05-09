@@ -26,6 +26,68 @@
                     "_id_": 309,
                     "_type": "Theme.Material.DayNight"
                 },
+                "translucentStatusBar": {
+                    "_id_": 414,
+                    "_type": "Boolean",
+                    "value_": true
+                },
+                "drawer": {
+                    "_id_": 392,
+                    "_type": "Drawer",
+                    "id": {
+                        "_id_": 406,
+                        "_type": "String",
+                        "value_": ""
+                    },
+                    "views": {
+                        "_id_": 404,
+                        "_type": "ViewList",
+                        "list_": []
+                    },
+                    "menu": {
+                        "_id_": 394,
+                        "_type": "Drawer.NativeMenu",
+                        "id": {
+                            "_id_": 402,
+                            "_type": "String",
+                            "value_": ""
+                        },
+                        "views": {
+                            "_id_": 400,
+                            "_type": "ViewList",
+                            "list_": []
+                        },
+                        "menu": {
+                            "_id_": 396,
+                            "_type": "Menu",
+                            "items": {
+                                "_id_": 398,
+                                "_type": "List",
+                                "list_": [],
+                                "elementType_": "Menu.Element"
+                            }
+                        }
+                    },
+                    "style": {
+                        "_id_": 433,
+                        "_type": "StyleReference",
+                        "ref": {
+                            "_id_": 435,
+                            "_type": "String",
+                            "value_": "@style\/background"
+                        }
+                    }
+                },
+                "menu": {
+                    "_id_": 417,
+                    "_type": "Menu",
+                    "items": {
+                        "_id_": 419,
+                        "_type": "List",
+                        "list_": [],
+                        "elementType_": "Menu.Element"
+                    }
+                },
                 "contentView": {
                     "_id_": 283,
                     "_type": "WebView.Decor",
@@ -85,9 +147,19 @@
                         "value_": ""
                     },
                     "style": {
-                        "_id_": 326,
-                        "_type": "Theme.Material.DayNight"
+                        "_id_": 388,
+                        "_type": "StyleReference",
+                        "ref": {
+                            "_id_": 390,
+                            "_type": "String",
+                            "value_": "@style\/background"
+                        }
                     }
+                },
+                "background": {
+                    "_id_": 386,
+                    "_type": "Color",
+                    "color_": -1771265
                 },
                 "name": {
                     "_id_": 52,
@@ -97,6 +169,48 @@
                 "launcher": {
                     "_id_": 54,
                     "_type": "Activity.Launcher"
+                }
+            },
+            {
+                "_id_": 439,
+                "_type": "Firebase.Messaging.MessageReceiver",
+                "name": {
+                    "_id_": 444,
+                    "_type": "String",
+                    "value_": "MessageReceiver1"
+                },
+                "onReceive": {
+                    "_id_": 441,
+                    "_type": "Sequence",
+                    "list_": [
+                        {
+                            "_id_": 442,
+                            "_type": "ScopeVariable",
+                            "name": {
+                                "_id_": 443,
+                                "_type": "String",
+                                "value_": "message"
+                            }
+                        },
+                        {
+                            "_id_": 446,
+                            "_type": "WebView",
+                            "id": {
+                                "_id_": 448,
+                                "_type": "String",
+                                "value_": ""
+                            },
+                            "url": {
+                                "_id_": 450,
+                                "_type": "URL",
+                                "url": {
+                                    "_id_": 451,
+                                    "_type": "String",
+                                    "value_": "https:\/\/xdaforums.com"
+                                }
+                            }
+                        }
+                    ]
                 }
             }
         ]
