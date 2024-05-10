@@ -169,48 +169,6 @@
                     "_id_": 54,
                     "_type": "Activity.Launcher"
                 }
-            },
-            {
-                "_id_": 439,
-                "_type": "Firebase.Messaging.MessageReceiver",
-                "name": {
-                    "_id_": 444,
-                    "_type": "String",
-                    "value_": "MessageReceiver1"
-                },
-                "onReceive": {
-                    "_id_": 441,
-                    "_type": "Sequence",
-                    "list_": [
-                        {
-                            "_id_": 442,
-                            "_type": "ScopeVariable",
-                            "name": {
-                                "_id_": 443,
-                                "_type": "String",
-                                "value_": "message"
-                            }
-                        },
-                        {
-                            "_id_": 446,
-                            "_type": "WebView",
-                            "id": {
-                                "_id_": 448,
-                                "_type": "String",
-                                "value_": ""
-                            },
-                            "url": {
-                                "_id_": 450,
-                                "_type": "URL",
-                                "url": {
-                                    "_id_": 451,
-                                    "_type": "String",
-                                    "value_": "https:\/\/xdaforums.com\/account\/alerts"
-                                }
-                            }
-                        }
-                    ]
-                }
             }
         ]
     },
