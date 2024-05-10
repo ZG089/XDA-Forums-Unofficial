@@ -35,11 +35,6 @@
                     "_id_": 309,
                     "_type": "Theme.Material.DayNight"
                 },
-                "translucentStatusBar": {
-                    "_id_": 414,
-                    "_type": "Boolean",
-                    "value_": true
-                },
                 "drawer": {
                     "_id_": 392,
                     "_type": "Drawer",
@@ -78,8 +73,13 @@
                         }
                     },
                     "style": {
-                        "_id_": 591,
-                        "_type": "Theme.Material.DayNight"
+                        "_id_": 663,
+                        "_type": "StyleReference",
+                        "ref": {
+                            "_id_": 665,
+                            "_type": "String",
+                            "value_": "@style\/background"
+                        }
                     }
                 },
                 "menu": {
