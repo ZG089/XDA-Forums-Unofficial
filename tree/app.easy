@@ -73,13 +73,9 @@
                         }
                     },
                     "style": {
-                        "_id_": 663,
-                        "_type": "StyleReference",
-                        "ref": {
-                            "_id_": 665,
-                            "_type": "String",
-                            "value_": "@style\/background"
-                        }
+                        "_id_": 723,
+                        "_type": "AndroidTheme",
+                        "value_": "Theme.AppCompat"
                     }
                 },
                 "menu": {
