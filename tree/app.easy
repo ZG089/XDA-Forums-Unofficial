@@ -78,13 +78,8 @@
                         }
                     },
                     "style": {
-                        "_id_": 433,
-                        "_type": "StyleReference",
-                        "ref": {
-                            "_id_": 435,
-                            "_type": "String",
-                            "value_": "@style\/background"
-                        }
+                        "_id_": 591,
+                        "_type": "Theme.Material.DayNight"
                     }
                 },
                 "menu": {
@@ -156,13 +151,8 @@
                         "value_": ""
                     },
                     "style": {
-                        "_id_": 388,
-                        "_type": "StyleReference",
-                        "ref": {
-                            "_id_": 390,
-                            "_type": "String",
-                            "value_": "@style\/background"
-                        }
+                        "_id_": 589,
+                        "_type": "Theme.Material.DayNight"
                     }
                 },
                 "background": {
